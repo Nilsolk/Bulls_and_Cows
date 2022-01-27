@@ -1,0 +1,3551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-27T18:19:08" hostname="DESKTOP-6AJM3PC" time="2.105">
+  <properties/>
+  <testcase name="start" classname="BullsCowsTest" time="2.105"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Введите длину числа
+> 1
+Введите количество возможных символов в коде
+> 10
+Secret code: 
+* (0-9, a-9). 
+Введите code
+> 0
+Grade: 0 bulls 0 cow
+Введите code
+> 1
+Grade: 0 bulls 0 cow
+Введите code
+> 2
+Grade: 0 bulls 0 cow
+Введите code
+> 3
+Grade: 1 bulls
+?[1;31m
+Start test 2?[0m
+Введите длину числа
+> 4
+Введите количество возможных символов в коде
+> 10
+Secret code: 
+**** (0-9, a-9). 
+Введите code
+> 0000
+Grade: 0 bulls 0 cow
+Введите code
+> 1111
+Grade: 0 bulls 0 cow
+Введите code
+> 2222
+Grade: 0 bulls 0 cow
+Введите code
+> 3333
+Grade: 1 bulls 3 cow
+Введите code
+> 4444
+Grade: 0 bulls 0 cow
+Введите code
+> 5555
+Grade: 1 bulls 3 cow
+Введите code
+> 6666
+Grade: 0 bulls 0 cow
+Введите code
+> 7777
+Grade: 1 bulls 3 cow
+Введите code
+> 8888
+Grade: 0 bulls 0 cow
+Введите code
+> 9999
+Grade: 1 bulls 3 cow
+Введите code
+> 3579
+Grade: 1 bulls 3 cow
+Введите code
+> 5379
+Grade: 2 bulls 2 cow
+Введите code
+> 7359
+Grade: 4 bulls
+?[1;31m
+Start test 3?[0m
+Введите длину числа
+> 6
+Введите количество возможных символов в коде
+> 10
+Secret code: 
+****** (0-9, a-9). 
+Введите code
+> 000000
+Grade: 0 bulls 0 cow
+Введите code
+> 111111
+Grade: 1 bulls 5 cow
+Введите code
+> 222222
+Grade: 1 bulls 5 cow
+Введите code
+> 333333
+Grade: 0 bulls 0 cow
+Введите code
+> 444444
+Grade: 0 bulls 0 cow
+Введите code
+> 555555
+Grade: 1 bulls 5 cow
+Введите code
+> 666666
+Grade: 1 bulls 5 cow
+Введите code
+> 777777
+Grade: 0 bulls 0 cow
+Введите code
+> 888888
+Grade: 0 bulls 0 cow
+Введите code
+> 999999
+Grade: 1 bulls 5 cow
+Введите code
+> aaaaaa
+Grade: 1 bulls 5 cow
+Введите code
+> 12569a
+Grade: 0 bulls 6 cow
+Введите code
+> 21569a
+Grade: 0 bulls 6 cow
+Введите code
+> 51269a
+Grade: 1 bulls 5 cow
+Введите code
+> 15269a
+Grade: 1 bulls 5 cow
+Введите code
+> 25169a
+Grade: 0 bulls 6 cow
+Введите code
+> 52169a
+Grade: 0 bulls 6 cow
+Введите code
+> 62159a
+Grade: 0 bulls 6 cow
+Введите code
+> 26159a
+Grade: 0 bulls 6 cow
+Введите code
+> 16259a
+Grade: 1 bulls 5 cow
+Введите code
+> 61259a
+Grade: 1 bulls 5 cow
+Введите code
+> 21659a
+Grade: 0 bulls 6 cow
+Введите code
+> 12659a
+Grade: 0 bulls 6 cow
+Введите code
+> 15629a
+Grade: 0 bulls 6 cow
+Введите code
+> 51629a
+Grade: 0 bulls 6 cow
+Введите code
+> 61529a
+Grade: 0 bulls 6 cow
+Введите code
+> 16529a
+Grade: 0 bulls 6 cow
+Введите code
+> 56129a
+Grade: 0 bulls 6 cow
+Введите code
+> 65129a
+Grade: 0 bulls 6 cow
+Введите code
+> 65219a
+Grade: 2 bulls 4 cow
+Введите code
+> 56219a
+Grade: 2 bulls 4 cow
+Введите code
+> 26519a
+Grade: 1 bulls 5 cow
+Введите code
+> 62519a
+Grade: 1 bulls 5 cow
+Введите code
+> 52619a
+Grade: 1 bulls 5 cow
+Введите code
+> 25619a
+Grade: 1 bulls 5 cow
+Введите code
+> 95612a
+Grade: 2 bulls 4 cow
+Введите code
+> 59612a
+Grade: 1 bulls 5 cow
+Введите code
+> 69512a
+Grade: 1 bulls 5 cow
+Введите code
+> 96512a
+Grade: 2 bulls 4 cow
+Введите code
+> 56912a
+Grade: 1 bulls 5 cow
+Введите code
+> 65912a
+Grade: 1 bulls 5 cow
+Введите code
+> 15962a
+Grade: 0 bulls 6 cow
+Введите code
+> 51962a
+Grade: 0 bulls 6 cow
+Введите code
+> 91562a
+Grade: 1 bulls 5 cow
+Введите code
+> 19562a
+Grade: 0 bulls 6 cow
+Введите code
+> 59162a
+Grade: 0 bulls 6 cow
+Введите code
+> 95162a
+Grade: 1 bulls 5 cow
+Введите code
+> 96152a
+Grade: 1 bulls 5 cow
+Введите code
+> 69152a
+Grade: 0 bulls 6 cow
+Введите code
+> 19652a
+Grade: 0 bulls 6 cow
+Введите code
+> 91652a
+Grade: 1 bulls 5 cow
+Введите code
+> 61952a
+Grade: 0 bulls 6 cow
+Введите code
+> 16952a
+Grade: 0 bulls 6 cow
+Введите code
+> 16592a
+Grade: 0 bulls 6 cow
+Введите code
+> 61592a
+Grade: 0 bulls 6 cow
+Введите code
+> 51692a
+Grade: 0 bulls 6 cow
+Введите code
+> 15692a
+Grade: 0 bulls 6 cow
+Введите code
+> 65192a
+Grade: 0 bulls 6 cow
+Введите code
+> 56192a
+Grade: 0 bulls 6 cow
+Введите code
+> 26195a
+Grade: 0 bulls 6 cow
+Введите code
+> 62195a
+Grade: 0 bulls 6 cow
+Введите code
+> 12695a
+Grade: 0 bulls 6 cow
+Введите code
+> 21695a
+Grade: 0 bulls 6 cow
+Введите code
+> 61295a
+Grade: 1 bulls 5 cow
+Введите code
+> 16295a
+Grade: 1 bulls 5 cow
+Введите code
+> 96215a
+Grade: 3 bulls 3 cow
+Введите code
+> 69215a
+Grade: 2 bulls 4 cow
+Введите code
+> 29615a
+Grade: 1 bulls 5 cow
+Введите code
+> 92615a
+Grade: 2 bulls 4 cow
+Введите code
+> 62915a
+Grade: 1 bulls 5 cow
+Введите code
+> 26915a
+Grade: 1 bulls 5 cow
+Введите code
+> 21965a
+Grade: 0 bulls 6 cow
+Введите code
+> 12965a
+Grade: 0 bulls 6 cow
+Введите code
+> 92165a
+Grade: 1 bulls 5 cow
+Введите code
+> 29165a
+Grade: 0 bulls 6 cow
+Введите code
+> 19265a
+Grade: 1 bulls 5 cow
+Введите code
+> 91265a
+Grade: 2 bulls 4 cow
+Введите code
+> 91625a
+Grade: 1 bulls 5 cow
+Введите code
+> 19625a
+Grade: 0 bulls 6 cow
+Введите code
+> 69125a
+Grade: 0 bulls 6 cow
+Введите code
+> 96125a
+Grade: 1 bulls 5 cow
+Введите code
+> 16925a
+Grade: 0 bulls 6 cow
+Введите code
+> 61925a
+Grade: 0 bulls 6 cow
+Введите code
+> 51926a
+Grade: 1 bulls 5 cow
+Введите code
+> 15926a
+Grade: 1 bulls 5 cow
+Введите code
+> 95126a
+Grade: 2 bulls 4 cow
+Введите code
+> 59126a
+Grade: 1 bulls 5 cow
+Введите code
+> 19526a
+Grade: 1 bulls 5 cow
+Введите code
+> 91526a
+Grade: 2 bulls 4 cow
+Введите code
+> 21596a
+Grade: 1 bulls 5 cow
+Введите code
+> 12596a
+Grade: 1 bulls 5 cow
+Введите code
+> 52196a
+Grade: 1 bulls 5 cow
+Введите code
+> 25196a
+Grade: 1 bulls 5 cow
+Введите code
+> 15296a
+Grade: 2 bulls 4 cow
+Введите code
+> 51296a
+Grade: 2 bulls 4 cow
+Введите code
+> 59216a
+Grade: 3 bulls 3 cow
+Введите code
+> 95216a
+Grade: 4 bulls 2 cow
+Введите code
+> 25916a
+Grade: 2 bulls 4 cow
+Введите code
+> 52916a
+Grade: 2 bulls 4 cow
+Введите code
+> 92516a
+Grade: 3 bulls 3 cow
+Введите code
+> 29516a
+Grade: 2 bulls 4 cow
+Введите code
+> 29156a
+Grade: 1 bulls 5 cow
+Введите code
+> 92156a
+Grade: 2 bulls 4 cow
+Введите code
+> 12956a
+Grade: 1 bulls 5 cow
+Введите code
+> 21956a
+Grade: 1 bulls 5 cow
+Введите code
+> 91256a
+Grade: 3 bulls 3 cow
+Введите code
+> 19256a
+Grade: 2 bulls 4 cow
+Введите code
+> 69251a
+Grade: 1 bulls 5 cow
+Введите code
+> 96251a
+Grade: 2 bulls 4 cow
+Введите code
+> 26951a
+Grade: 0 bulls 6 cow
+Введите code
+> 62951a
+Grade: 0 bulls 6 cow
+Введите code
+> 92651a
+Grade: 1 bulls 5 cow
+Введите code
+> 29651a
+Grade: 0 bulls 6 cow
+Введите code
+> 59621a
+Grade: 0 bulls 6 cow
+Введите code
+> 95621a
+Grade: 1 bulls 5 cow
+Введите code
+> 65921a
+Grade: 0 bulls 6 cow
+Введите code
+> 56921a
+Grade: 0 bulls 6 cow
+Введите code
+> 96521a
+Grade: 1 bulls 5 cow
+Введите code
+> 69521a
+Grade: 0 bulls 6 cow
+Введите code
+> 62591a
+Grade: 0 bulls 6 cow
+Введите code
+> 26591a
+Grade: 0 bulls 6 cow
+Введите code
+> 56291a
+Grade: 1 bulls 5 cow
+Введите code
+> 65291a
+Grade: 1 bulls 5 cow
+Введите code
+> 25691a
+Grade: 0 bulls 6 cow
+Введите code
+> 52691a
+Grade: 0 bulls 6 cow
+Введите code
+> 52961a
+Grade: 0 bulls 6 cow
+Введите code
+> 25961a
+Grade: 0 bulls 6 cow
+Введите code
+> 95261a
+Grade: 2 bulls 4 cow
+Введите code
+> 59261a
+Grade: 1 bulls 5 cow
+Введите code
+> 29561a
+Grade: 0 bulls 6 cow
+Введите code
+> 92561a
+Grade: 1 bulls 5 cow
+Введите code
+> a25619
+Grade: 0 bulls 6 cow
+Введите code
+> 2a5619
+Grade: 1 bulls 5 cow
+Введите code
+> 5a2619
+Grade: 2 bulls 4 cow
+Введите code
+> a52619
+Grade: 1 bulls 5 cow
+Введите code
+> 25a619
+Grade: 0 bulls 6 cow
+Введите code
+> 52a619
+Grade: 0 bulls 6 cow
+Введите code
+> 62a519
+Grade: 0 bulls 6 cow
+Введите code
+> 26a519
+Grade: 0 bulls 6 cow
+Введите code
+> a62519
+Grade: 1 bulls 5 cow
+Введите code
+> 6a2519
+Grade: 2 bulls 4 cow
+Введите code
+> 2a6519
+Grade: 1 bulls 5 cow
+Введите code
+> a26519
+Grade: 0 bulls 6 cow
+Введите code
+> a56219
+Grade: 0 bulls 6 cow
+Введите code
+> 5a6219
+Grade: 1 bulls 5 cow
+Введите code
+> 6a5219
+Grade: 1 bulls 5 cow
+Введите code
+> a65219
+Grade: 0 bulls 6 cow
+Введите code
+> 56a219
+Grade: 0 bulls 6 cow
+Введите code
+> 65a219
+Grade: 0 bulls 6 cow
+Введите code
+> 652a19
+Grade: 1 bulls 5 cow
+Введите code
+> 562a19
+Grade: 1 bulls 5 cow
+Введите code
+> 265a19
+Grade: 0 bulls 6 cow
+Введите code
+> 625a19
+Grade: 0 bulls 6 cow
+Введите code
+> 526a19
+Grade: 0 bulls 6 cow
+Введите code
+> 256a19
+Grade: 0 bulls 6 cow
+Введите code
+> 156a29
+Grade: 0 bulls 6 cow
+Введите code
+> 516a29
+Grade: 0 bulls 6 cow
+Введите code
+> 615a29
+Grade: 0 bulls 6 cow
+Введите code
+> 165a29
+Grade: 0 bulls 6 cow
+Введите code
+> 561a29
+Grade: 0 bulls 6 cow
+Введите code
+> 651a29
+Grade: 0 bulls 6 cow
+Введите code
+> a51629
+Grade: 0 bulls 6 cow
+Введите code
+> 5a1629
+Grade: 1 bulls 5 cow
+Введите code
+> 1a5629
+Grade: 1 bulls 5 cow
+Введите code
+> a15629
+Grade: 0 bulls 6 cow
+Введите code
+> 51a629
+Grade: 0 bulls 6 cow
+Введите code
+> 15a629
+Grade: 0 bulls 6 cow
+Введите code
+> 16a529
+Grade: 0 bulls 6 cow
+Введите code
+> 61a529
+Grade: 0 bulls 6 cow
+Введите code
+> a16529
+Grade: 0 bulls 6 cow
+Введите code
+> 1a6529
+Grade: 1 bulls 5 cow
+Введите code
+> 6a1529
+Grade: 1 bulls 5 cow
+Введите code
+> a61529
+Grade: 0 bulls 6 cow
+Введите code
+> a65129
+Grade: 1 bulls 5 cow
+Введите code
+> 6a5129
+Grade: 2 bulls 4 cow
+Введите code
+> 5a6129
+Grade: 2 bulls 4 cow
+Введите code
+> a56129
+Grade: 1 bulls 5 cow
+Введите code
+> 65a129
+Grade: 1 bulls 5 cow
+Введите code
+> 56a129
+Grade: 1 bulls 5 cow
+Введите code
+> 26a159
+Grade: 1 bulls 5 cow
+Введите code
+> 62a159
+Grade: 1 bulls 5 cow
+Введите code
+> a26159
+Grade: 1 bulls 5 cow
+Введите code
+> 2a6159
+Grade: 2 bulls 4 cow
+Введите code
+> 6a2159
+Grade: 3 bulls 3 cow
+Введите code
+> a62159
+Grade: 2 bulls 4 cow
+Введите code
+> 162a59
+Grade: 1 bulls 5 cow
+Введите code
+> 612a59
+Grade: 1 bulls 5 cow
+Введите code
+> 216a59
+Grade: 0 bulls 6 cow
+Введите code
+> 126a59
+Grade: 0 bulls 6 cow
+Введите code
+> 621a59
+Grade: 0 bulls 6 cow
+Введите code
+> 261a59
+Grade: 0 bulls 6 cow
+Введите code
+> 2a1659
+Grade: 1 bulls 5 cow
+Введите code
+> a21659
+Grade: 0 bulls 6 cow
+Введите code
+> 12a659
+Grade: 0 bulls 6 cow
+Введите code
+> 21a659
+Grade: 0 bulls 6 cow
+Введите code
+> a12659
+Grade: 1 bulls 5 cow
+Введите code
+> 1a2659
+Grade: 2 bulls 4 cow
+Введите code
+> 1a6259
+Grade: 1 bulls 5 cow
+Введите code
+> a16259
+Grade: 0 bulls 6 cow
+Введите code
+> 61a259
+Grade: 0 bulls 6 cow
+Введите code
+> 16a259
+Grade: 0 bulls 6 cow
+Введите code
+> a61259
+Grade: 0 bulls 6 cow
+Введите code
+> 6a1259
+Grade: 1 bulls 5 cow
+Введите code
+> 5a1269
+Grade: 2 bulls 4 cow
+Введите code
+> a51269
+Grade: 1 bulls 5 cow
+Введите code
+> 15a269
+Grade: 1 bulls 5 cow
+Введите code
+> 51a269
+Grade: 1 bulls 5 cow
+Введите code
+> a15269
+Grade: 1 bulls 5 cow
+Введите code
+> 1a5269
+Grade: 2 bulls 4 cow
+Введите code
+> 2a5169
+Grade: 3 bulls 3 cow
+Введите code
+> a25169
+Grade: 2 bulls 4 cow
+Введите code
+> 52a169
+Grade: 2 bulls 4 cow
+Введите code
+> 25a169
+Grade: 2 bulls 4 cow
+Введите code
+> a52169
+Grade: 3 bulls 3 cow
+Введите code
+> 5a2169
+Grade: 4 bulls 2 cow
+Введите code
+> 512a69
+Grade: 2 bulls 4 cow
+Введите code
+> 152a69
+Grade: 2 bulls 4 cow
+Введите code
+> 251a69
+Grade: 1 bulls 5 cow
+Введите code
+> 521a69
+Grade: 1 bulls 5 cow
+Введите code
+> 125a69
+Grade: 1 bulls 5 cow
+Введите code
+> 215a69
+Grade: 1 bulls 5 cow
+Введите code
+> 21a569
+Grade: 1 bulls 5 cow
+Введите code
+> 12a569
+Grade: 1 bulls 5 cow
+Введите code
+> a21569
+Grade: 1 bulls 5 cow
+Введите code
+> 2a1569
+Grade: 2 bulls 4 cow
+Введите code
+> 1a2569
+Grade: 3 bulls 3 cow
+Введите code
+> a12569
+Grade: 2 bulls 4 cow
+Введите code
+> 6125a9
+Grade: 1 bulls 5 cow
+Введите code
+> 1625a9
+Grade: 1 bulls 5 cow
+Введите code
+> 2615a9
+Grade: 0 bulls 6 cow
+Введите code
+> 6215a9
+Grade: 0 bulls 6 cow
+Введите code
+> 1265a9
+Grade: 0 bulls 6 cow
+Введите code
+> 2165a9
+Grade: 0 bulls 6 cow
+Введите code
+> 5162a9
+Grade: 0 bulls 6 cow
+Введите code
+> 1562a9
+Grade: 0 bulls 6 cow
+Введите code
+> 6512a9
+Grade: 0 bulls 6 cow
+Введите code
+> 5612a9
+Grade: 0 bulls 6 cow
+Введите code
+> 1652a9
+Grade: 0 bulls 6 cow
+Введите code
+> 6152a9
+Grade: 0 bulls 6 cow
+Введите code
+> 6251a9
+Grade: 1 bulls 5 cow
+Введите code
+> 2651a9
+Grade: 1 bulls 5 cow
+Введите code
+> 5621a9
+Grade: 2 bulls 4 cow
+Введите code
+> 6521a9
+Grade: 2 bulls 4 cow
+Введите code
+> 2561a9
+Grade: 1 bulls 5 cow
+Введите code
+> 5261a9
+Grade: 1 bulls 5 cow
+Введите code
+> 5216a9
+Grade: 0 bulls 6 cow
+Введите code
+> 2516a9
+Grade: 0 bulls 6 cow
+Введите code
+> 1526a9
+Grade: 1 bulls 5 cow
+Введите code
+> 5126a9
+Grade: 1 bulls 5 cow
+Введите code
+> 2156a9
+Grade: 0 bulls 6 cow
+Введите code
+> 1256a9
+Grade: 0 bulls 6 cow
+Введите code
+> 1956a2
+Grade: 0 bulls 6 cow
+Введите code
+> 9156a2
+Grade: 1 bulls 5 cow
+Введите code
+> 5196a2
+Grade: 0 bulls 6 cow
+Введите code
+> 1596a2
+Grade: 0 bulls 6 cow
+Введите code
+> 9516a2
+Grade: 1 bulls 5 cow
+Введите code
+> 5916a2
+Grade: 0 bulls 6 cow
+Введите code
+> 6915a2
+Grade: 0 bulls 6 cow
+Введите code
+> 9615a2
+Grade: 1 bulls 5 cow
+Введите code
+> 1695a2
+Grade: 0 bulls 6 cow
+Введите code
+> 6195a2
+Grade: 0 bulls 6 cow
+Введите code
+> 9165a2
+Grade: 1 bulls 5 cow
+Введите code
+> 1965a2
+Grade: 0 bulls 6 cow
+Введите code
+> 1569a2
+Grade: 0 bulls 6 cow
+Введите code
+> 5169a2
+Grade: 0 bulls 6 cow
+Введите code
+> 6159a2
+Grade: 0 bulls 6 cow
+Введите code
+> 1659a2
+Grade: 0 bulls 6 cow
+Введите code
+> 5619a2
+Grade: 0 bulls 6 cow
+Введите code
+> 6519a2
+Grade: 0 bulls 6 cow
+Введите code
+> 6591a2
+Grade: 1 bulls 5 cow
+Введите code
+> 5691a2
+Grade: 1 bulls 5 cow
+Введите code
+> 9651a2
+Grade: 2 bulls 4 cow
+Введите code
+> 6951a2
+Grade: 1 bulls 5 cow
+Введите code
+> 5961a2
+Grade: 1 bulls 5 cow
+Введите code
+> 9561a2
+Grade: 2 bulls 4 cow
+Введите code
+> a56192
+Grade: 1 bulls 5 cow
+Введите code
+> 5a6192
+Grade: 2 bulls 4 cow
+Введите code
+> 6a5192
+Grade: 2 bulls 4 cow
+Введите code
+> a65192
+Grade: 1 bulls 5 cow
+Введите code
+> 56a192
+Grade: 1 bulls 5 cow
+Введите code
+> 65a192
+Grade: 1 bulls 5 cow
+Введите code
+> 15a692
+Grade: 0 bulls 6 cow
+Введите code
+> 51a692
+Grade: 0 bulls 6 cow
+Введите code
+> a15692
+Grade: 0 bulls 6 cow
+Введите code
+> 1a5692
+Grade: 1 bulls 5 cow
+Введите code
+> 5a1692
+Grade: 1 bulls 5 cow
+Введите code
+> a51692
+Grade: 0 bulls 6 cow
+Введите code
+> a61592
+Grade: 0 bulls 6 cow
+Введите code
+> 6a1592
+Grade: 1 bulls 5 cow
+Введите code
+> 1a6592
+Grade: 1 bulls 5 cow
+Введите code
+> a16592
+Grade: 0 bulls 6 cow
+Введите code
+> 61a592
+Grade: 0 bulls 6 cow
+Введите code
+> 16a592
+Grade: 0 bulls 6 cow
+Введите code
+> 165a92
+Grade: 0 bulls 6 cow
+Введите code
+> 615a92
+Grade: 0 bulls 6 cow
+Введите code
+> 516a92
+Grade: 0 bulls 6 cow
+Введите code
+> 156a92
+Grade: 0 bulls 6 cow
+Введите code
+> 651a92
+Grade: 0 bulls 6 cow
+Введите code
+> 561a92
+Grade: 0 bulls 6 cow
+Введите code
+> 961a52
+Grade: 1 bulls 5 cow
+Введите code
+> 691a52
+Grade: 0 bulls 6 cow
+Введите code
+> 196a52
+Grade: 0 bulls 6 cow
+Введите code
+> 916a52
+Grade: 1 bulls 5 cow
+Введите code
+> 619a52
+Grade: 0 bulls 6 cow
+Введите code
+> 169a52
+Grade: 0 bulls 6 cow
+Введите code
+> a69152
+Grade: 1 bulls 5 cow
+Введите code
+> 6a9152
+Grade: 2 bulls 4 cow
+Введите code
+> 9a6152
+Grade: 3 bulls 3 cow
+Введите code
+> a96152
+Grade: 1 bulls 5 cow
+Введите code
+> 69a152
+Grade: 1 bulls 5 cow
+Введите code
+> 96a152
+Grade: 2 bulls 4 cow
+Введите code
+> 91a652
+Grade: 1 bulls 5 cow
+Введите code
+> 19a652
+Grade: 0 bulls 6 cow
+Введите code
+> a91652
+Grade: 0 bulls 6 cow
+Введите code
+> 9a1652
+Grade: 2 bulls 4 cow
+Введите code
+> 1a9652
+Grade: 1 bulls 5 cow
+Введите code
+> a19652
+Grade: 0 bulls 6 cow
+Введите code
+> a16952
+Grade: 0 bulls 6 cow
+Введите code
+> 1a6952
+Grade: 1 bulls 5 cow
+Введите code
+> 6a1952
+Grade: 1 bulls 5 cow
+Введите code
+> a61952
+Grade: 0 bulls 6 cow
+Введите code
+> 16a952
+Grade: 0 bulls 6 cow
+Введите code
+> 61a952
+Grade: 0 bulls 6 cow
+Введите code
+> 51a962
+Grade: 1 bulls 5 cow
+Введите code
+> 15a962
+Grade: 1 bulls 5 cow
+Введите code
+> a51962
+Grade: 1 bulls 5 cow
+Введите code
+> 5a1962
+Grade: 2 bulls 4 cow
+Введите code
+> 1a5962
+Grade: 2 bulls 4 cow
+Введите code
+> a15962
+Grade: 1 bulls 5 cow
+Введите code
+> 915a62
+Grade: 2 bulls 4 cow
+Введите code
+> 195a62
+Grade: 1 bulls 5 cow
+Введите code
+> 591a62
+Grade: 1 bulls 5 cow
+Введите code
+> 951a62
+Grade: 2 bulls 4 cow
+Введите code
+> 159a62
+Grade: 1 bulls 5 cow
+Введите code
+> 519a62
+Grade: 1 bulls 5 cow
+Введите code
+> 5a9162
+Grade: 3 bulls 3 cow
+Введите code
+> a59162
+Grade: 2 bulls 4 cow
+Введите code
+> 95a162
+Grade: 3 bulls 3 cow
+Введите code
+> 59a162
+Grade: 2 bulls 4 cow
+Введите code
+> a95162
+Grade: 2 bulls 4 cow
+Введите code
+> 9a5162
+Grade: 4 bulls 2 cow
+Введите code
+> 9a1562
+Grade: 3 bulls 3 cow
+Введите code
+> a91562
+Grade: 1 bulls 5 cow
+Введите code
+> 19a562
+Grade: 1 bulls 5 cow
+Введите code
+> 91a562
+Grade: 2 bulls 4 cow
+Введите code
+> a19562
+Grade: 1 bulls 5 cow
+Введите code
+> 1a9562
+Grade: 2 bulls 4 cow
+Введите code
+> 6a9512
+Grade: 1 bulls 5 cow
+Введите code
+> a69512
+Grade: 0 bulls 6 cow
+Введите code
+> 96a512
+Grade: 1 bulls 5 cow
+Введите code
+> 69a512
+Grade: 0 bulls 6 cow
+Введите code
+> a96512
+Grade: 0 bulls 6 cow
+Введите code
+> 9a6512
+Grade: 2 bulls 4 cow
+Введите code
+> 5a6912
+Grade: 1 bulls 5 cow
+Введите code
+> a56912
+Grade: 0 bulls 6 cow
+Введите code
+> 65a912
+Grade: 0 bulls 6 cow
+Введите code
+> 56a912
+Grade: 0 bulls 6 cow
+Введите code
+> a65912
+Grade: 0 bulls 6 cow
+Введите code
+> 6a5912
+Grade: 1 bulls 5 cow
+Введите code
+> 695a12
+Grade: 0 bulls 6 cow
+Введите code
+> 965a12
+Grade: 1 bulls 5 cow
+Введите code
+> 569a12
+Grade: 0 bulls 6 cow
+Введите code
+> 659a12
+Grade: 0 bulls 6 cow
+Введите code
+> 956a12
+Grade: 1 bulls 5 cow
+Введите code
+> 596a12
+Grade: 0 bulls 6 cow
+Введите code
+> 59a612
+Grade: 0 bulls 6 cow
+Введите code
+> 95a612
+Grade: 1 bulls 5 cow
+Введите code
+> a59612
+Grade: 0 bulls 6 cow
+Введите code
+> 5a9612
+Grade: 1 bulls 5 cow
+Введите code
+> 9a5612
+Grade: 2 bulls 4 cow
+Введите code
+> a95612
+Grade: 0 bulls 6 cow
+Введите code
+> a92615
+Grade: 2 bulls 4 cow
+Введите code
+> 9a2615
+Grade: 4 bulls 2 cow
+Введите code
+> 2a9615
+Grade: 2 bulls 4 cow
+Введите code
+> a29615
+Grade: 1 bulls 5 cow
+Введите code
+> 92a615
+Grade: 2 bulls 4 cow
+Введите code
+> 29a615
+Grade: 1 bulls 5 cow
+Введите code
+> 69a215
+Grade: 1 bulls 5 cow
+Введите code
+> 96a215
+Grade: 2 bulls 4 cow
+Введите code
+> a69215
+Grade: 1 bulls 5 cow
+Введите code
+> 6a9215
+Grade: 2 bulls 4 cow
+Введите code
+> 9a6215
+Grade: 3 bulls 3 cow
+Введите code
+> a96215
+Grade: 1 bulls 5 cow
+Введите code
+> a26915
+Grade: 1 bulls 5 cow
+Введите code
+> 2a6915
+Grade: 2 bulls 4 cow
+Введите code
+> 6a2915
+Grade: 3 bulls 3 cow
+Введите code
+> a62915
+Grade: 2 bulls 4 cow
+Введите code
+> 26a915
+Grade: 1 bulls 5 cow
+Введите code
+> 62a915
+Grade: 1 bulls 5 cow
+Введите code
+> 629a15
+Grade: 1 bulls 5 cow
+Введите code
+> 269a15
+Grade: 1 bulls 5 cow
+Введите code
+> 962a15
+Grade: 3 bulls 3 cow
+Введите code
+> 692a15
+Grade: 2 bulls 4 cow
+Введите code
+> 296a15
+Grade: 1 bulls 5 cow
+Введите code
+> 926a15
+Grade: 2 bulls 4 cow
+Введите code
+> 126a95
+Grade: 1 bulls 5 cow
+Введите code
+> 216a95
+Grade: 1 bulls 5 cow
+Введите code
+> 612a95
+Grade: 2 bulls 4 cow
+Введите code
+> 162a95
+Grade: 2 bulls 4 cow
+Введите code
+> 261a95
+Grade: 1 bulls 5 cow
+Введите code
+> 621a95
+Grade: 1 bulls 5 cow
+Введите code
+> a21695
+Grade: 1 bulls 5 cow
+Введите code
+> 2a1695
+Grade: 2 bulls 4 cow
+Введите code
+> 1a2695
+Grade: 3 bulls 3 cow
+Введите code
+> a12695
+Grade: 2 bulls 4 cow
+Введите code
+> 21a695
+Grade: 1 bulls 5 cow
+Введите code
+> 12a695
+Grade: 1 bulls 5 cow
+Введите code
+> 16a295
+Grade: 1 bulls 5 cow
+Введите code
+> 61a295
+Grade: 1 bulls 5 cow
+Введите code
+> a16295
+Grade: 1 bulls 5 cow
+Введите code
+> 1a6295
+Grade: 2 bulls 4 cow
+Введите code
+> 6a1295
+Grade: 2 bulls 4 cow
+Введите code
+> a61295
+Grade: 1 bulls 5 cow
+Введите code
+> a62195
+Grade: 3 bulls 3 cow
+Введите code
+> 6a2195
+Grade: 4 bulls 2 cow
+Введите code
+> 2a6195
+Grade: 3 bulls 3 cow
+Введите code
+> a26195
+Grade: 2 bulls 4 cow
+Введите code
+> 62a195
+Grade: 2 bulls 4 cow
+Введите code
+> 26a195
+Grade: 2 bulls 4 cow
+Введите code
+> 96a125
+Grade: 3 bulls 3 cow
+Введите code
+> 69a125
+Grade: 2 bulls 4 cow
+Введите code
+> a96125
+Grade: 2 bulls 4 cow
+Введите code
+> 9a6125
+Grade: 4 bulls 2 cow
+Введите code
+> 6a9125
+Grade: 3 bulls 3 cow
+Введите code
+> a69125
+Grade: 2 bulls 4 cow
+Введите code
+> 169a25
+Grade: 1 bulls 5 cow
+Введите code
+> 619a25
+Grade: 1 bulls 5 cow
+Введите code
+> 916a25
+Grade: 2 bulls 4 cow
+Введите code
+> 196a25
+Grade: 1 bulls 5 cow
+Введите code
+> 691a25
+Grade: 1 bulls 5 cow
+Введите code
+> 961a25
+Grade: 2 bulls 4 cow
+Введите code
+> 9a1625
+Grade: 3 bulls 3 cow
+Введите code
+> a91625
+Grade: 1 bulls 5 cow
+Введите code
+> 19a625
+Grade: 1 bulls 5 cow
+Введите code
+> 91a625
+Grade: 2 bulls 4 cow
+Введите code
+> a19625
+Grade: 1 bulls 5 cow
+Введите code
+> 1a9625
+Grade: 2 bulls 4 cow
+Введите code
+> 1a6925
+Grade: 2 bulls 4 cow
+Введите code
+> a16925
+Grade: 1 bulls 5 cow
+Введите code
+> 61a925
+Grade: 1 bulls 5 cow
+Введите code
+> 16a925
+Grade: 1 bulls 5 cow
+Введите code
+> a61925
+Grade: 1 bulls 5 cow
+Введите code
+> 6a1925
+Grade: 2 bulls 4 cow
+Введите code
+> 2a1965
+Grade: 3 bulls 3 cow
+Введите code
+> a21965
+Grade: 2 bulls 4 cow
+Введите code
+> 12a965
+Grade: 2 bulls 4 cow
+Введите code
+> 21a965
+Grade: 2 bulls 4 cow
+Введите code
+> a12965
+Grade: 3 bulls 3 cow
+Введите code
+> 1a2965
+Grade: 4 bulls 2 cow
+Введите code
+> 9a2165
+Grade: 6 bulls
+?[1;31m
+Start test 4?[0m
+Введите длину числа
+> 11
+Введите количество возможных символов в коде
+> 10
+Error
+?[1;31m
+Start test 5?[0m
+Введите длину числа
+> 4
+Введите количество возможных символов в коде
+> 16
+Secret code: 
+**** (0-9, a-f). 
+Введите code
+> 0000
+Grade: 0 bulls 0 cow
+Введите code
+> 1111
+Grade: 0 bulls 0 cow
+Введите code
+> 2222
+Grade: 0 bulls 0 cow
+Введите code
+> 3333
+Grade: 0 bulls 0 cow
+Введите code
+> 4444
+Grade: 0 bulls 0 cow
+Введите code
+> 5555
+Grade: 1 bulls 3 cow
+Введите code
+> 6666
+Grade: 0 bulls 0 cow
+Введите code
+> 7777
+Grade: 1 bulls 3 cow
+Введите code
+> 8888
+Grade: 0 bulls 0 cow
+Введите code
+> 9999
+Grade: 1 bulls 3 cow
+Введите code
+> aaaa
+Grade: 0 bulls 0 cow
+Введите code
+> bbbb
+Grade: 0 bulls 0 cow
+Введите code
+> cccc
+Grade: 1 bulls 3 cow
+Введите code
+> 579c
+Grade: 1 bulls 3 cow
+Введите code
+> 759c
+Grade: 2 bulls 2 cow
+Введите code
+> 957c
+Grade: 4 bulls
+?[1;31m
+Start test 6?[0m
+Введите длину числа
+> 6
+Введите количество возможных символов в коде
+> 36
+Secret code: 
+****** (0-9, a-z). 
+Введите code
+> 000000
+Grade: 0 bulls 0 cow
+Введите code
+> 111111
+Grade: 0 bulls 0 cow
+Введите code
+> 222222
+Grade: 0 bulls 0 cow
+Введите code
+> 333333
+Grade: 1 bulls 5 cow
+Введите code
+> 444444
+Grade: 0 bulls 0 cow
+Введите code
+> 555555
+Grade: 0 bulls 0 cow
+Введите code
+> 666666
+Grade: 0 bulls 0 cow
+Введите code
+> 777777
+Grade: 0 bulls 0 cow
+Введите code
+> 888888
+Grade: 0 bulls 0 cow
+Введите code
+> 999999
+Grade: 0 bulls 0 cow
+Введите code
+> aaaaaa
+Grade: 0 bulls 0 cow
+Введите code
+> bbbbbb
+Grade: 1 bulls 5 cow
+Введите code
+> cccccc
+Grade: 0 bulls 0 cow
+Введите code
+> dddddd
+Grade: 0 bulls 0 cow
+Введите code
+> eeeeee
+Grade: 0 bulls 0 cow
+Введите code
+> ffffff
+Grade: 0 bulls 0 cow
+Введите code
+> gggggg
+Grade: 0 bulls 0 cow
+Введите code
+> hhhhhh
+Grade: 0 bulls 0 cow
+Введите code
+> iiiiii
+Grade: 0 bulls 0 cow
+Введите code
+> jjjjjj
+Grade: 1 bulls 5 cow
+Введите code
+> kkkkkk
+Grade: 0 bulls 0 cow
+Введите code
+> llllll
+Grade: 0 bulls 0 cow
+Введите code
+> mmmmmm
+Grade: 0 bulls 0 cow
+Введите code
+> nnnnnn
+Grade: 0 bulls 0 cow
+Введите code
+> oooooo
+Grade: 0 bulls 0 cow
+Введите code
+> pppppp
+Grade: 0 bulls 0 cow
+Введите code
+> qqqqqq
+Grade: 0 bulls 0 cow
+Введите code
+> rrrrrr
+Grade: 1 bulls 5 cow
+Введите code
+> ssssss
+Grade: 0 bulls 0 cow
+Введите code
+> tttttt
+Grade: 0 bulls 0 cow
+Введите code
+> uuuuuu
+Grade: 0 bulls 0 cow
+Введите code
+> vvvvvv
+Grade: 1 bulls 5 cow
+Введите code
+> wwwwww
+Grade: 0 bulls 0 cow
+Введите code
+> xxxxxx
+Grade: 1 bulls 5 cow
+Введите code
+> 3bjrvx
+Grade: 2 bulls 4 cow
+Введите code
+> b3jrvx
+Grade: 2 bulls 4 cow
+Введите code
+> j3brvx
+Grade: 1 bulls 5 cow
+Введите code
+> 3jbrvx
+Grade: 1 bulls 5 cow
+Введите code
+> bj3rvx
+Grade: 1 bulls 5 cow
+Введите code
+> jb3rvx
+Grade: 1 bulls 5 cow
+Введите code
+> rb3jvx
+Grade: 2 bulls 4 cow
+Введите code
+> br3jvx
+Grade: 1 bulls 5 cow
+Введите code
+> 3rbjvx
+Grade: 1 bulls 5 cow
+Введите code
+> r3bjvx
+Grade: 2 bulls 4 cow
+Введите code
+> b3rjvx
+Grade: 1 bulls 5 cow
+Введите code
+> 3brjvx
+Grade: 1 bulls 5 cow
+Введите code
+> 3jrbvx
+Grade: 2 bulls 4 cow
+Введите code
+> j3rbvx
+Grade: 2 bulls 4 cow
+Введите code
+> r3jbvx
+Grade: 4 bulls 2 cow
+Введите code
+> 3rjbvx
+Grade: 3 bulls 3 cow
+Введите code
+> jr3bvx
+Grade: 2 bulls 4 cow
+Введите code
+> rj3bvx
+Grade: 3 bulls 3 cow
+Введите code
+> rjb3vx
+Grade: 2 bulls 4 cow
+Введите code
+> jrb3vx
+Grade: 1 bulls 5 cow
+Введите code
+> brj3vx
+Grade: 2 bulls 4 cow
+Введите code
+> rbj3vx
+Grade: 3 bulls 3 cow
+Введите code
+> jbr3vx
+Grade: 1 bulls 5 cow
+Введите code
+> bjr3vx
+Grade: 1 bulls 5 cow
+Введите code
+> vjr3bx
+Grade: 0 bulls 6 cow
+Введите code
+> jvr3bx
+Grade: 0 bulls 6 cow
+Введите code
+> rvj3bx
+Grade: 2 bulls 4 cow
+Введите code
+> vrj3bx
+Grade: 1 bulls 5 cow
+Введите code
+> jrv3bx
+Grade: 0 bulls 6 cow
+Введите code
+> rjv3bx
+Grade: 1 bulls 5 cow
+Введите code
+> 3jvrbx
+Grade: 0 bulls 6 cow
+Введите code
+> j3vrbx
+Grade: 0 bulls 6 cow
+Введите code
+> v3jrbx
+Grade: 1 bulls 5 cow
+Введите code
+> 3vjrbx
+Grade: 1 bulls 5 cow
+Введите code
+> jv3rbx
+Grade: 0 bulls 6 cow
+Введите code
+> vj3rbx
+Grade: 0 bulls 6 cow
+Введите code
+> vr3jbx
+Grade: 0 bulls 6 cow
+Введите code
+> rv3jbx
+Grade: 1 bulls 5 cow
+Введите code
+> 3vrjbx
+Grade: 0 bulls 6 cow
+Введите code
+> v3rjbx
+Grade: 0 bulls 6 cow
+Введите code
+> r3vjbx
+Grade: 1 bulls 5 cow
+Введите code
+> 3rvjbx
+Grade: 0 bulls 6 cow
+Введите code
+> 3rjvbx
+Grade: 1 bulls 5 cow
+Введите code
+> r3jvbx
+Grade: 2 bulls 4 cow
+Введите code
+> j3rvbx
+Grade: 0 bulls 6 cow
+Введите code
+> 3jrvbx
+Grade: 0 bulls 6 cow
+Введите code
+> rj3vbx
+Grade: 1 bulls 5 cow
+Введите code
+> jr3vbx
+Grade: 0 bulls 6 cow
+Введите code
+> br3vjx
+Grade: 0 bulls 6 cow
+Введите code
+> rb3vjx
+Grade: 1 bulls 5 cow
+Введите code
+> 3brvjx
+Grade: 0 bulls 6 cow
+Введите code
+> b3rvjx
+Grade: 0 bulls 6 cow
+Введите code
+> r3bvjx
+Grade: 1 bulls 5 cow
+Введите code
+> 3rbvjx
+Grade: 0 bulls 6 cow
+Введите code
+> vrb3jx
+Grade: 0 bulls 6 cow
+Введите code
+> rvb3jx
+Grade: 1 bulls 5 cow
+Введите code
+> bvr3jx
+Grade: 0 bulls 6 cow
+Введите code
+> vbr3jx
+Grade: 0 bulls 6 cow
+Введите code
+> rbv3jx
+Grade: 1 bulls 5 cow
+Введите code
+> brv3jx
+Grade: 0 bulls 6 cow
+Введите code
+> b3vrjx
+Grade: 0 bulls 6 cow
+Введите code
+> 3bvrjx
+Grade: 0 bulls 6 cow
+Введите code
+> vb3rjx
+Grade: 0 bulls 6 cow
+Введите code
+> bv3rjx
+Grade: 0 bulls 6 cow
+Введите code
+> 3vbrjx
+Grade: 0 bulls 6 cow
+Введите code
+> v3brjx
+Grade: 0 bulls 6 cow
+Введите code
+> v3rbjx
+Grade: 1 bulls 5 cow
+Введите code
+> 3vrbjx
+Grade: 1 bulls 5 cow
+Введите code
+> rv3bjx
+Grade: 2 bulls 4 cow
+Введите code
+> vr3bjx
+Grade: 1 bulls 5 cow
+Введите code
+> 3rvbjx
+Grade: 1 bulls 5 cow
+Введите code
+> r3vbjx
+Grade: 2 bulls 4 cow
+Введите code
+> j3vbrx
+Grade: 1 bulls 5 cow
+Введите code
+> 3jvbrx
+Grade: 1 bulls 5 cow
+Введите code
+> vj3brx
+Grade: 1 bulls 5 cow
+Введите code
+> jv3brx
+Grade: 1 bulls 5 cow
+Введите code
+> 3vjbrx
+Grade: 2 bulls 4 cow
+Введите code
+> v3jbrx
+Grade: 2 bulls 4 cow
+Введите code
+> b3jvrx
+Grade: 1 bulls 5 cow
+Введите code
+> 3bjvrx
+Grade: 1 bulls 5 cow
+Введите code
+> jb3vrx
+Grade: 0 bulls 6 cow
+Введите code
+> bj3vrx
+Grade: 0 bulls 6 cow
+Введите code
+> 3jbvrx
+Grade: 0 bulls 6 cow
+Введите code
+> j3bvrx
+Grade: 0 bulls 6 cow
+Введите code
+> jvb3rx
+Grade: 0 bulls 6 cow
+Введите code
+> vjb3rx
+Grade: 0 bulls 6 cow
+Введите code
+> bjv3rx
+Grade: 0 bulls 6 cow
+Введите code
+> jbv3rx
+Grade: 0 bulls 6 cow
+Введите code
+> vbj3rx
+Grade: 1 bulls 5 cow
+Введите code
+> bvj3rx
+Grade: 1 bulls 5 cow
+Введите code
+> bv3jrx
+Grade: 0 bulls 6 cow
+Введите code
+> vb3jrx
+Grade: 0 bulls 6 cow
+Введите code
+> 3bvjrx
+Grade: 0 bulls 6 cow
+Введите code
+> b3vjrx
+Grade: 0 bulls 6 cow
+Введите code
+> v3bjrx
+Grade: 0 bulls 6 cow
+Введите code
+> 3vbjrx
+Grade: 0 bulls 6 cow
+Введите code
+> rvbj3x
+Grade: 1 bulls 5 cow
+Введите code
+> vrbj3x
+Grade: 0 bulls 6 cow
+Введите code
+> brvj3x
+Grade: 0 bulls 6 cow
+Введите code
+> rbvj3x
+Grade: 1 bulls 5 cow
+Введите code
+> vbrj3x
+Grade: 0 bulls 6 cow
+Введите code
+> bvrj3x
+Grade: 0 bulls 6 cow
+Введите code
+> jvrb3x
+Grade: 1 bulls 5 cow
+Введите code
+> vjrb3x
+Grade: 1 bulls 5 cow
+Введите code
+> rjvb3x
+Grade: 2 bulls 4 cow
+Введите code
+> jrvb3x
+Grade: 1 bulls 5 cow
+Введите code
+> vrjb3x
+Grade: 2 bulls 4 cow
+Введите code
+> rvjb3x
+Grade: 3 bulls 3 cow
+Введите code
+> rbjv3x
+Grade: 2 bulls 4 cow
+Введите code
+> brjv3x
+Grade: 1 bulls 5 cow
+Введите code
+> jrbv3x
+Grade: 0 bulls 6 cow
+Введите code
+> rjbv3x
+Grade: 1 bulls 5 cow
+Введите code
+> bjrv3x
+Grade: 0 bulls 6 cow
+Введите code
+> jbrv3x
+Grade: 0 bulls 6 cow
+Введите code
+> jbvr3x
+Grade: 0 bulls 6 cow
+Введите code
+> bjvr3x
+Grade: 0 bulls 6 cow
+Введите code
+> vjbr3x
+Grade: 0 bulls 6 cow
+Введите code
+> jvbr3x
+Grade: 0 bulls 6 cow
+Введите code
+> bvjr3x
+Grade: 1 bulls 5 cow
+Введите code
+> vbjr3x
+Grade: 1 bulls 5 cow
+Введите code
+> xbjr3v
+Grade: 1 bulls 5 cow
+Введите code
+> bxjr3v
+Grade: 2 bulls 4 cow
+Введите code
+> jxbr3v
+Grade: 1 bulls 5 cow
+Введите code
+> xjbr3v
+Grade: 0 bulls 6 cow
+Введите code
+> bjxr3v
+Grade: 0 bulls 6 cow
+Введите code
+> jbxr3v
+Grade: 0 bulls 6 cow
+Введите code
+> rbxj3v
+Grade: 1 bulls 5 cow
+Введите code
+> brxj3v
+Grade: 0 bulls 6 cow
+Введите code
+> xrbj3v
+Grade: 0 bulls 6 cow
+Введите code
+> rxbj3v
+Grade: 2 bulls 4 cow
+Введите code
+> bxrj3v
+Grade: 1 bulls 5 cow
+Введите code
+> xbrj3v
+Grade: 0 bulls 6 cow
+Введите code
+> xjrb3v
+Grade: 1 bulls 5 cow
+Введите code
+> jxrb3v
+Grade: 2 bulls 4 cow
+Введите code
+> rxjb3v
+Grade: 4 bulls 2 cow
+Введите code
+> xrjb3v
+Grade: 2 bulls 4 cow
+Введите code
+> jrxb3v
+Grade: 1 bulls 5 cow
+Введите code
+> rjxb3v
+Grade: 2 bulls 4 cow
+Введите code
+> rjbx3v
+Grade: 1 bulls 5 cow
+Введите code
+> jrbx3v
+Grade: 0 bulls 6 cow
+Введите code
+> brjx3v
+Grade: 1 bulls 5 cow
+Введите code
+> rbjx3v
+Grade: 2 bulls 4 cow
+Введите code
+> jbrx3v
+Grade: 0 bulls 6 cow
+Введите code
+> bjrx3v
+Grade: 0 bulls 6 cow
+Введите code
+> 3jrxbv
+Grade: 0 bulls 6 cow
+Введите code
+> j3rxbv
+Grade: 0 bulls 6 cow
+Введите code
+> r3jxbv
+Grade: 2 bulls 4 cow
+Введите code
+> 3rjxbv
+Grade: 1 bulls 5 cow
+Введите code
+> jr3xbv
+Grade: 0 bulls 6 cow
+Введите code
+> rj3xbv
+Grade: 1 bulls 5 cow
+Введите code
+> xj3rbv
+Grade: 0 bulls 6 cow
+Введите code
+> jx3rbv
+Grade: 1 bulls 5 cow
+Введите code
+> 3xjrbv
+Grade: 2 bulls 4 cow
+Введите code
+> x3jrbv
+Grade: 1 bulls 5 cow
+Введите code
+> j3xrbv
+Grade: 0 bulls 6 cow
+Введите code
+> 3jxrbv
+Grade: 0 bulls 6 cow
+Введите code
+> 3rxjbv
+Grade: 0 bulls 6 cow
+Введите code
+> r3xjbv
+Grade: 1 bulls 5 cow
+Введите code
+> x3rjbv
+Grade: 0 bulls 6 cow
+Введите code
+> 3xrjbv
+Grade: 1 bulls 5 cow
+Введите code
+> rx3jbv
+Grade: 2 bulls 4 cow
+Введите code
+> xr3jbv
+Grade: 0 bulls 6 cow
+Введите code
+> xrj3bv
+Grade: 1 bulls 5 cow
+Введите code
+> rxj3bv
+Grade: 3 bulls 3 cow
+Введите code
+> jxr3bv
+Grade: 1 bulls 5 cow
+Введите code
+> xjr3bv
+Grade: 0 bulls 6 cow
+Введите code
+> rjx3bv
+Grade: 1 bulls 5 cow
+Введите code
+> jrx3bv
+Grade: 0 bulls 6 cow
+Введите code
+> brx3jv
+Grade: 0 bulls 6 cow
+Введите code
+> rbx3jv
+Grade: 1 bulls 5 cow
+Введите code
+> xbr3jv
+Grade: 0 bulls 6 cow
+Введите code
+> bxr3jv
+Grade: 1 bulls 5 cow
+Введите code
+> rxb3jv
+Grade: 2 bulls 4 cow
+Введите code
+> xrb3jv
+Grade: 0 bulls 6 cow
+Введите code
+> 3rbxjv
+Grade: 0 bulls 6 cow
+Введите code
+> r3bxjv
+Grade: 1 bulls 5 cow
+Введите code
+> b3rxjv
+Grade: 0 bulls 6 cow
+Введите code
+> 3brxjv
+Grade: 0 bulls 6 cow
+Введите code
+> rb3xjv
+Grade: 1 bulls 5 cow
+Введите code
+> br3xjv
+Grade: 0 bulls 6 cow
+Введите code
+> bx3rjv
+Grade: 1 bulls 5 cow
+Введите code
+> xb3rjv
+Grade: 0 bulls 6 cow
+Введите code
+> 3bxrjv
+Grade: 0 bulls 6 cow
+Введите code
+> b3xrjv
+Grade: 0 bulls 6 cow
+Введите code
+> x3brjv
+Grade: 0 bulls 6 cow
+Введите code
+> 3xbrjv
+Grade: 1 bulls 5 cow
+Введите code
+> 3xrbjv
+Grade: 2 bulls 4 cow
+Введите code
+> x3rbjv
+Grade: 1 bulls 5 cow
+Введите code
+> r3xbjv
+Grade: 2 bulls 4 cow
+Введите code
+> 3rxbjv
+Grade: 1 bulls 5 cow
+Введите code
+> xr3bjv
+Grade: 1 bulls 5 cow
+Введите code
+> rx3bjv
+Grade: 3 bulls 3 cow
+Введите code
+> jx3brv
+Grade: 2 bulls 4 cow
+Введите code
+> xj3brv
+Grade: 1 bulls 5 cow
+Введите code
+> 3jxbrv
+Grade: 1 bulls 5 cow
+Введите code
+> j3xbrv
+Grade: 1 bulls 5 cow
+Введите code
+> x3jbrv
+Grade: 2 bulls 4 cow
+Введите code
+> 3xjbrv
+Grade: 3 bulls 3 cow
+Введите code
+> bxj3rv
+Grade: 2 bulls 4 cow
+Введите code
+> xbj3rv
+Grade: 1 bulls 5 cow
+Введите code
+> jbx3rv
+Grade: 0 bulls 6 cow
+Введите code
+> bjx3rv
+Grade: 0 bulls 6 cow
+Введите code
+> xjb3rv
+Grade: 0 bulls 6 cow
+Введите code
+> jxb3rv
+Grade: 1 bulls 5 cow
+Введите code
+> j3bxrv
+Grade: 0 bulls 6 cow
+Введите code
+> 3jbxrv
+Grade: 0 bulls 6 cow
+Введите code
+> bj3xrv
+Grade: 0 bulls 6 cow
+Введите code
+> jb3xrv
+Grade: 0 bulls 6 cow
+Введите code
+> 3bjxrv
+Grade: 1 bulls 5 cow
+Введите code
+> b3jxrv
+Grade: 1 bulls 5 cow
+Введите code
+> b3xjrv
+Grade: 0 bulls 6 cow
+Введите code
+> 3bxjrv
+Grade: 0 bulls 6 cow
+Введите code
+> xb3jrv
+Grade: 0 bulls 6 cow
+Введите code
+> bx3jrv
+Grade: 1 bulls 5 cow
+Введите code
+> 3xbjrv
+Grade: 1 bulls 5 cow
+Введите code
+> x3bjrv
+Grade: 0 bulls 6 cow
+Введите code
+> r3bjxv
+Grade: 1 bulls 5 cow
+Введите code
+> 3rbjxv
+Grade: 0 bulls 6 cow
+Введите code
+> br3jxv
+Grade: 0 bulls 6 cow
+Введите code
+> rb3jxv
+Grade: 1 bulls 5 cow
+Введите code
+> 3brjxv
+Grade: 0 bulls 6 cow
+Введите code
+> b3rjxv
+Grade: 0 bulls 6 cow
+Введите code
+> j3rbxv
+Grade: 1 bulls 5 cow
+Введите code
+> 3jrbxv
+Grade: 1 bulls 5 cow
+Введите code
+> rj3bxv
+Grade: 2 bulls 4 cow
+Введите code
+> jr3bxv
+Grade: 1 bulls 5 cow
+Введите code
+> 3rjbxv
+Grade: 2 bulls 4 cow
+Введите code
+> r3jbxv
+Grade: 3 bulls 3 cow
+Введите code
+> rbj3xv
+Grade: 2 bulls 4 cow
+Введите code
+> brj3xv
+Grade: 1 bulls 5 cow
+Введите code
+> jrb3xv
+Grade: 0 bulls 6 cow
+Введите code
+> rjb3xv
+Grade: 1 bulls 5 cow
+Введите code
+> bjr3xv
+Grade: 0 bulls 6 cow
+Введите code
+> jbr3xv
+Grade: 0 bulls 6 cow
+Введите code
+> jb3rxv
+Grade: 0 bulls 6 cow
+Введите code
+> bj3rxv
+Grade: 0 bulls 6 cow
+Введите code
+> 3jbrxv
+Grade: 0 bulls 6 cow
+Введите code
+> j3brxv
+Grade: 0 bulls 6 cow
+Введите code
+> b3jrxv
+Grade: 1 bulls 5 cow
+Введите code
+> 3bjrxv
+Grade: 1 bulls 5 cow
+Введите code
+> 3vjrxb
+Grade: 1 bulls 5 cow
+Введите code
+> v3jrxb
+Grade: 1 bulls 5 cow
+Введите code
+> j3vrxb
+Grade: 0 bulls 6 cow
+Введите code
+> 3jvrxb
+Grade: 0 bulls 6 cow
+Введите code
+> vj3rxb
+Grade: 0 bulls 6 cow
+Введите code
+> jv3rxb
+Grade: 0 bulls 6 cow
+Введите code
+> rv3jxb
+Grade: 1 bulls 5 cow
+Введите code
+> vr3jxb
+Grade: 0 bulls 6 cow
+Введите code
+> 3rvjxb
+Grade: 0 bulls 6 cow
+Введите code
+> r3vjxb
+Grade: 1 bulls 5 cow
+Введите code
+> v3rjxb
+Grade: 0 bulls 6 cow
+Введите code
+> 3vrjxb
+Grade: 0 bulls 6 cow
+Введите code
+> 3jrvxb
+Grade: 0 bulls 6 cow
+Введите code
+> j3rvxb
+Grade: 0 bulls 6 cow
+Введите code
+> r3jvxb
+Grade: 2 bulls 4 cow
+Введите code
+> 3rjvxb
+Grade: 1 bulls 5 cow
+Введите code
+> jr3vxb
+Grade: 0 bulls 6 cow
+Введите code
+> rj3vxb
+Grade: 1 bulls 5 cow
+Введите code
+> rjv3xb
+Grade: 1 bulls 5 cow
+Введите code
+> jrv3xb
+Grade: 0 bulls 6 cow
+Введите code
+> vrj3xb
+Grade: 1 bulls 5 cow
+Введите code
+> rvj3xb
+Grade: 2 bulls 4 cow
+Введите code
+> jvr3xb
+Grade: 0 bulls 6 cow
+Введите code
+> vjr3xb
+Grade: 0 bulls 6 cow
+Введите code
+> xjr3vb
+Grade: 1 bulls 5 cow
+Введите code
+> jxr3vb
+Grade: 2 bulls 4 cow
+Введите code
+> rxj3vb
+Grade: 4 bulls 2 cow
+Введите code
+> xrj3vb
+Grade: 2 bulls 4 cow
+Введите code
+> jrx3vb
+Grade: 1 bulls 5 cow
+Введите code
+> rjx3vb
+Grade: 2 bulls 4 cow
+Введите code
+> 3jxrvb
+Grade: 1 bulls 5 cow
+Введите code
+> j3xrvb
+Grade: 1 bulls 5 cow
+Введите code
+> x3jrvb
+Grade: 2 bulls 4 cow
+Введите code
+> 3xjrvb
+Grade: 3 bulls 3 cow
+Введите code
+> jx3rvb
+Grade: 2 bulls 4 cow
+Введите code
+> xj3rvb
+Grade: 1 bulls 5 cow
+Введите code
+> xr3jvb
+Grade: 1 bulls 5 cow
+Введите code
+> rx3jvb
+Grade: 3 bulls 3 cow
+Введите code
+> 3xrjvb
+Grade: 2 bulls 4 cow
+Введите code
+> x3rjvb
+Grade: 1 bulls 5 cow
+Введите code
+> r3xjvb
+Grade: 2 bulls 4 cow
+Введите code
+> 3rxjvb
+Grade: 1 bulls 5 cow
+Введите code
+> 3rjxvb
+Grade: 2 bulls 4 cow
+Введите code
+> r3jxvb
+Grade: 3 bulls 3 cow
+Введите code
+> j3rxvb
+Grade: 1 bulls 5 cow
+Введите code
+> 3jrxvb
+Grade: 1 bulls 5 cow
+Введите code
+> rj3xvb
+Grade: 2 bulls 4 cow
+Введите code
+> jr3xvb
+Grade: 1 bulls 5 cow
+Введите code
+> vr3xjb
+Grade: 0 bulls 6 cow
+Введите code
+> rv3xjb
+Grade: 1 bulls 5 cow
+Введите code
+> 3vrxjb
+Grade: 0 bulls 6 cow
+Введите code
+> v3rxjb
+Grade: 0 bulls 6 cow
+Введите code
+> r3vxjb
+Grade: 1 bulls 5 cow
+Введите code
+> 3rvxjb
+Grade: 0 bulls 6 cow
+Введите code
+> xrv3jb
+Grade: 0 bulls 6 cow
+Введите code
+> rxv3jb
+Grade: 2 bulls 4 cow
+Введите code
+> vxr3jb
+Grade: 1 bulls 5 cow
+Введите code
+> xvr3jb
+Grade: 0 bulls 6 cow
+Введите code
+> rvx3jb
+Grade: 1 bulls 5 cow
+Введите code
+> vrx3jb
+Grade: 0 bulls 6 cow
+Введите code
+> v3xrjb
+Grade: 0 bulls 6 cow
+Введите code
+> 3vxrjb
+Grade: 0 bulls 6 cow
+Введите code
+> xv3rjb
+Grade: 0 bulls 6 cow
+Введите code
+> vx3rjb
+Grade: 1 bulls 5 cow
+Введите code
+> 3xvrjb
+Grade: 1 bulls 5 cow
+Введите code
+> x3vrjb
+Grade: 0 bulls 6 cow
+Введите code
+> x3rvjb
+Grade: 0 bulls 6 cow
+Введите code
+> 3xrvjb
+Grade: 1 bulls 5 cow
+Введите code
+> rx3vjb
+Grade: 2 bulls 4 cow
+Введите code
+> xr3vjb
+Grade: 0 bulls 6 cow
+Введите code
+> 3rxvjb
+Grade: 0 bulls 6 cow
+Введите code
+> r3xvjb
+Grade: 1 bulls 5 cow
+Введите code
+> j3xvrb
+Grade: 0 bulls 6 cow
+Введите code
+> 3jxvrb
+Grade: 0 bulls 6 cow
+Введите code
+> xj3vrb
+Grade: 0 bulls 6 cow
+Введите code
+> jx3vrb
+Grade: 1 bulls 5 cow
+Введите code
+> 3xjvrb
+Grade: 2 bulls 4 cow
+Введите code
+> x3jvrb
+Grade: 1 bulls 5 cow
+Введите code
+> v3jxrb
+Grade: 1 bulls 5 cow
+Введите code
+> 3vjxrb
+Grade: 1 bulls 5 cow
+Введите code
+> jv3xrb
+Grade: 0 bulls 6 cow
+Введите code
+> vj3xrb
+Grade: 0 bulls 6 cow
+Введите code
+> 3jvxrb
+Grade: 0 bulls 6 cow
+Введите code
+> j3vxrb
+Grade: 0 bulls 6 cow
+Введите code
+> jxv3rb
+Grade: 1 bulls 5 cow
+Введите code
+> xjv3rb
+Grade: 0 bulls 6 cow
+Введите code
+> vjx3rb
+Grade: 0 bulls 6 cow
+Введите code
+> jvx3rb
+Grade: 0 bulls 6 cow
+Введите code
+> xvj3rb
+Grade: 1 bulls 5 cow
+Введите code
+> vxj3rb
+Grade: 2 bulls 4 cow
+Введите code
+> vx3jrb
+Grade: 1 bulls 5 cow
+Введите code
+> xv3jrb
+Grade: 0 bulls 6 cow
+Введите code
+> 3vxjrb
+Grade: 0 bulls 6 cow
+Введите code
+> v3xjrb
+Grade: 0 bulls 6 cow
+Введите code
+> x3vjrb
+Grade: 0 bulls 6 cow
+Введите code
+> 3xvjrb
+Grade: 1 bulls 5 cow
+Введите code
+> rxvj3b
+Grade: 2 bulls 4 cow
+Введите code
+> xrvj3b
+Grade: 0 bulls 6 cow
+Введите code
+> vrxj3b
+Grade: 0 bulls 6 cow
+Введите code
+> rvxj3b
+Grade: 1 bulls 5 cow
+Введите code
+> xvrj3b
+Grade: 0 bulls 6 cow
+Введите code
+> vxrj3b
+Grade: 1 bulls 5 cow
+Введите code
+> jxrv3b
+Grade: 1 bulls 5 cow
+Введите code
+> xjrv3b
+Grade: 0 bulls 6 cow
+Введите code
+> rjxv3b
+Grade: 1 bulls 5 cow
+Введите code
+> jrxv3b
+Grade: 0 bulls 6 cow
+Введите code
+> xrjv3b
+Grade: 1 bulls 5 cow
+Введите code
+> rxjv3b
+Grade: 3 bulls 3 cow
+Введите code
+> rvjx3b
+Grade: 2 bulls 4 cow
+Введите code
+> vrjx3b
+Grade: 1 bulls 5 cow
+Введите code
+> jrvx3b
+Grade: 0 bulls 6 cow
+Введите code
+> rjvx3b
+Grade: 1 bulls 5 cow
+Введите code
+> vjrx3b
+Grade: 0 bulls 6 cow
+Введите code
+> jvrx3b
+Grade: 0 bulls 6 cow
+Введите code
+> jvxr3b
+Grade: 0 bulls 6 cow
+Введите code
+> vjxr3b
+Grade: 0 bulls 6 cow
+Введите code
+> xjvr3b
+Grade: 0 bulls 6 cow
+Введите code
+> jxvr3b
+Grade: 1 bulls 5 cow
+Введите code
+> vxjr3b
+Grade: 2 bulls 4 cow
+Введите code
+> xvjr3b
+Grade: 1 bulls 5 cow
+Введите code
+> xvbr3j
+Grade: 0 bulls 6 cow
+Введите code
+> vxbr3j
+Grade: 1 bulls 5 cow
+Введите code
+> bxvr3j
+Grade: 1 bulls 5 cow
+Введите code
+> xbvr3j
+Grade: 0 bulls 6 cow
+Введите code
+> vbxr3j
+Grade: 0 bulls 6 cow
+Введите code
+> bvxr3j
+Grade: 0 bulls 6 cow
+Введите code
+> rvxb3j
+Grade: 2 bulls 4 cow
+Введите code
+> vrxb3j
+Grade: 1 bulls 5 cow
+Введите code
+> xrvb3j
+Grade: 1 bulls 5 cow
+Введите code
+> rxvb3j
+Grade: 3 bulls 3 cow
+Введите code
+> vxrb3j
+Grade: 2 bulls 4 cow
+Введите code
+> xvrb3j
+Grade: 1 bulls 5 cow
+Введите code
+> xbrv3j
+Grade: 0 bulls 6 cow
+Введите code
+> bxrv3j
+Grade: 1 bulls 5 cow
+Введите code
+> rxbv3j
+Grade: 2 bulls 4 cow
+Введите code
+> xrbv3j
+Grade: 0 bulls 6 cow
+Введите code
+> brxv3j
+Grade: 0 bulls 6 cow
+Введите code
+> rbxv3j
+Grade: 1 bulls 5 cow
+Введите code
+> rbvx3j
+Grade: 1 bulls 5 cow
+Введите code
+> brvx3j
+Grade: 0 bulls 6 cow
+Введите code
+> vrbx3j
+Grade: 0 bulls 6 cow
+Введите code
+> rvbx3j
+Grade: 1 bulls 5 cow
+Введите code
+> bvrx3j
+Grade: 0 bulls 6 cow
+Введите code
+> vbrx3j
+Grade: 0 bulls 6 cow
+Введите code
+> 3brxvj
+Grade: 1 bulls 5 cow
+Введите code
+> b3rxvj
+Grade: 1 bulls 5 cow
+Введите code
+> r3bxvj
+Grade: 2 bulls 4 cow
+Введите code
+> 3rbxvj
+Grade: 1 bulls 5 cow
+Введите code
+> br3xvj
+Grade: 1 bulls 5 cow
+Введите code
+> rb3xvj
+Grade: 2 bulls 4 cow
+Введите code
+> xb3rvj
+Grade: 1 bulls 5 cow
+Введите code
+> bx3rvj
+Grade: 2 bulls 4 cow
+Введите code
+> 3xbrvj
+Grade: 2 bulls 4 cow
+Введите code
+> x3brvj
+Grade: 1 bulls 5 cow
+Введите code
+> b3xrvj
+Grade: 1 bulls 5 cow
+Введите code
+> 3bxrvj
+Grade: 1 bulls 5 cow
+Введите code
+> 3rxbvj
+Grade: 2 bulls 4 cow
+Введите code
+> r3xbvj
+Grade: 3 bulls 3 cow
+Введите code
+> x3rbvj
+Grade: 2 bulls 4 cow
+Введите code
+> 3xrbvj
+Grade: 3 bulls 3 cow
+Введите code
+> rx3bvj
+Grade: 4 bulls 2 cow
+Введите code
+> xr3bvj
+Grade: 2 bulls 4 cow
+Введите code
+> xrb3vj
+Grade: 1 bulls 5 cow
+Введите code
+> rxb3vj
+Grade: 3 bulls 3 cow
+Введите code
+> bxr3vj
+Grade: 2 bulls 4 cow
+Введите code
+> xbr3vj
+Grade: 1 bulls 5 cow
+Введите code
+> rbx3vj
+Grade: 2 bulls 4 cow
+Введите code
+> brx3vj
+Grade: 1 bulls 5 cow
+Введите code
+> vrx3bj
+Grade: 0 bulls 6 cow
+Введите code
+> rvx3bj
+Grade: 1 bulls 5 cow
+Введите code
+> xvr3bj
+Grade: 0 bulls 6 cow
+Введите code
+> vxr3bj
+Grade: 1 bulls 5 cow
+Введите code
+> rxv3bj
+Grade: 2 bulls 4 cow
+Введите code
+> xrv3bj
+Grade: 0 bulls 6 cow
+Введите code
+> 3rvxbj
+Grade: 0 bulls 6 cow
+Введите code
+> r3vxbj
+Grade: 1 bulls 5 cow
+Введите code
+> v3rxbj
+Grade: 0 bulls 6 cow
+Введите code
+> 3vrxbj
+Grade: 0 bulls 6 cow
+Введите code
+> rv3xbj
+Grade: 1 bulls 5 cow
+Введите code
+> vr3xbj
+Grade: 0 bulls 6 cow
+Введите code
+> vx3rbj
+Grade: 1 bulls 5 cow
+Введите code
+> xv3rbj
+Grade: 0 bulls 6 cow
+Введите code
+> 3vxrbj
+Grade: 0 bulls 6 cow
+Введите code
+> v3xrbj
+Grade: 0 bulls 6 cow
+Введите code
+> x3vrbj
+Grade: 0 bulls 6 cow
+Введите code
+> 3xvrbj
+Grade: 1 bulls 5 cow
+Введите code
+> 3xrvbj
+Grade: 1 bulls 5 cow
+Введите code
+> x3rvbj
+Grade: 0 bulls 6 cow
+Введите code
+> r3xvbj
+Grade: 1 bulls 5 cow
+Введите code
+> 3rxvbj
+Grade: 0 bulls 6 cow
+Введите code
+> xr3vbj
+Grade: 0 bulls 6 cow
+Введите code
+> rx3vbj
+Grade: 2 bulls 4 cow
+Введите code
+> bx3vrj
+Grade: 1 bulls 5 cow
+Введите code
+> xb3vrj
+Grade: 0 bulls 6 cow
+Введите code
+> 3bxvrj
+Grade: 0 bulls 6 cow
+Введите code
+> b3xvrj
+Grade: 0 bulls 6 cow
+Введите code
+> x3bvrj
+Grade: 0 bulls 6 cow
+Введите code
+> 3xbvrj
+Grade: 1 bulls 5 cow
+Введите code
+> vxb3rj
+Grade: 1 bulls 5 cow
+Введите code
+> xvb3rj
+Grade: 0 bulls 6 cow
+Введите code
+> bvx3rj
+Grade: 0 bulls 6 cow
+Введите code
+> vbx3rj
+Grade: 0 bulls 6 cow
+Введите code
+> xbv3rj
+Grade: 0 bulls 6 cow
+Введите code
+> bxv3rj
+Grade: 1 bulls 5 cow
+Введите code
+> b3vxrj
+Grade: 0 bulls 6 cow
+Введите code
+> 3bvxrj
+Grade: 0 bulls 6 cow
+Введите code
+> vb3xrj
+Grade: 0 bulls 6 cow
+Введите code
+> bv3xrj
+Grade: 0 bulls 6 cow
+Введите code
+> 3vbxrj
+Grade: 0 bulls 6 cow
+Введите code
+> v3bxrj
+Grade: 0 bulls 6 cow
+Введите code
+> v3xbrj
+Grade: 1 bulls 5 cow
+Введите code
+> 3vxbrj
+Grade: 1 bulls 5 cow
+Введите code
+> xv3brj
+Grade: 1 bulls 5 cow
+Введите code
+> vx3brj
+Grade: 2 bulls 4 cow
+Введите code
+> 3xvbrj
+Grade: 2 bulls 4 cow
+Введите code
+> x3vbrj
+Grade: 1 bulls 5 cow
+Введите code
+> r3vbxj
+Grade: 2 bulls 4 cow
+Введите code
+> 3rvbxj
+Grade: 1 bulls 5 cow
+Введите code
+> vr3bxj
+Grade: 1 bulls 5 cow
+Введите code
+> rv3bxj
+Grade: 2 bulls 4 cow
+Введите code
+> 3vrbxj
+Grade: 1 bulls 5 cow
+Введите code
+> v3rbxj
+Grade: 1 bulls 5 cow
+Введите code
+> b3rvxj
+Grade: 0 bulls 6 cow
+Введите code
+> 3brvxj
+Grade: 0 bulls 6 cow
+Введите code
+> rb3vxj
+Grade: 1 bulls 5 cow
+Введите code
+> br3vxj
+Grade: 0 bulls 6 cow
+Введите code
+> 3rbvxj
+Grade: 0 bulls 6 cow
+Введите code
+> r3bvxj
+Grade: 1 bulls 5 cow
+Введите code
+> rvb3xj
+Grade: 1 bulls 5 cow
+Введите code
+> vrb3xj
+Grade: 0 bulls 6 cow
+Введите code
+> brv3xj
+Grade: 0 bulls 6 cow
+Введите code
+> rbv3xj
+Grade: 1 bulls 5 cow
+Введите code
+> vbr3xj
+Grade: 0 bulls 6 cow
+Введите code
+> bvr3xj
+Grade: 0 bulls 6 cow
+Введите code
+> bv3rxj
+Grade: 0 bulls 6 cow
+Введите code
+> vb3rxj
+Grade: 0 bulls 6 cow
+Введите code
+> 3bvrxj
+Grade: 0 bulls 6 cow
+Введите code
+> b3vrxj
+Grade: 0 bulls 6 cow
+Введите code
+> v3brxj
+Grade: 0 bulls 6 cow
+Введите code
+> 3vbrxj
+Grade: 0 bulls 6 cow
+Введите code
+> 3vbjxr
+Grade: 0 bulls 6 cow
+Введите code
+> v3bjxr
+Grade: 0 bulls 6 cow
+Введите code
+> b3vjxr
+Grade: 0 bulls 6 cow
+Введите code
+> 3bvjxr
+Grade: 0 bulls 6 cow
+Введите code
+> vb3jxr
+Grade: 0 bulls 6 cow
+Введите code
+> bv3jxr
+Grade: 0 bulls 6 cow
+Введите code
+> jv3bxr
+Grade: 1 bulls 5 cow
+Введите code
+> vj3bxr
+Grade: 1 bulls 5 cow
+Введите code
+> 3jvbxr
+Grade: 1 bulls 5 cow
+Введите code
+> j3vbxr
+Grade: 1 bulls 5 cow
+Введите code
+> v3jbxr
+Grade: 2 bulls 4 cow
+Введите code
+> 3vjbxr
+Grade: 2 bulls 4 cow
+Введите code
+> 3bjvxr
+Grade: 1 bulls 5 cow
+Введите code
+> b3jvxr
+Grade: 1 bulls 5 cow
+Введите code
+> j3bvxr
+Grade: 0 bulls 6 cow
+Введите code
+> 3jbvxr
+Grade: 0 bulls 6 cow
+Введите code
+> bj3vxr
+Grade: 0 bulls 6 cow
+Введите code
+> jb3vxr
+Grade: 0 bulls 6 cow
+Введите code
+> jbv3xr
+Grade: 0 bulls 6 cow
+Введите code
+> bjv3xr
+Grade: 0 bulls 6 cow
+Введите code
+> vjb3xr
+Grade: 0 bulls 6 cow
+Введите code
+> jvb3xr
+Grade: 0 bulls 6 cow
+Введите code
+> bvj3xr
+Grade: 1 bulls 5 cow
+Введите code
+> vbj3xr
+Grade: 1 bulls 5 cow
+Введите code
+> xbj3vr
+Grade: 2 bulls 4 cow
+Введите code
+> bxj3vr
+Grade: 3 bulls 3 cow
+Введите code
+> jxb3vr
+Grade: 2 bulls 4 cow
+Введите code
+> xjb3vr
+Grade: 1 bulls 5 cow
+Введите code
+> bjx3vr
+Grade: 1 bulls 5 cow
+Введите code
+> jbx3vr
+Grade: 1 bulls 5 cow
+Введите code
+> 3bxjvr
+Grade: 1 bulls 5 cow
+Введите code
+> b3xjvr
+Grade: 1 bulls 5 cow
+Введите code
+> x3bjvr
+Grade: 1 bulls 5 cow
+Введите code
+> 3xbjvr
+Grade: 2 bulls 4 cow
+Введите code
+> bx3jvr
+Grade: 2 bulls 4 cow
+Введите code
+> xb3jvr
+Grade: 1 bulls 5 cow
+Введите code
+> xj3bvr
+Grade: 2 bulls 4 cow
+Введите code
+> jx3bvr
+Grade: 3 bulls 3 cow
+Введите code
+> 3xjbvr
+Grade: 4 bulls 2 cow
+Введите code
+> x3jbvr
+Grade: 3 bulls 3 cow
+Введите code
+> j3xbvr
+Grade: 2 bulls 4 cow
+Введите code
+> 3jxbvr
+Grade: 2 bulls 4 cow
+Введите code
+> 3jbxvr
+Grade: 1 bulls 5 cow
+Введите code
+> j3bxvr
+Grade: 1 bulls 5 cow
+Введите code
+> b3jxvr
+Grade: 2 bulls 4 cow
+Введите code
+> 3bjxvr
+Grade: 2 bulls 4 cow
+Введите code
+> jb3xvr
+Grade: 1 bulls 5 cow
+Введите code
+> bj3xvr
+Grade: 1 bulls 5 cow
+Введите code
+> vj3xbr
+Grade: 0 bulls 6 cow
+Введите code
+> jv3xbr
+Grade: 0 bulls 6 cow
+Введите code
+> 3vjxbr
+Grade: 1 bulls 5 cow
+Введите code
+> v3jxbr
+Grade: 1 bulls 5 cow
+Введите code
+> j3vxbr
+Grade: 0 bulls 6 cow
+Введите code
+> 3jvxbr
+Grade: 0 bulls 6 cow
+Введите code
+> xjv3br
+Grade: 0 bulls 6 cow
+Введите code
+> jxv3br
+Grade: 1 bulls 5 cow
+Введите code
+> vxj3br
+Grade: 2 bulls 4 cow
+Введите code
+> xvj3br
+Grade: 1 bulls 5 cow
+Введите code
+> jvx3br
+Grade: 0 bulls 6 cow
+Введите code
+> vjx3br
+Grade: 0 bulls 6 cow
+Введите code
+> v3xjbr
+Grade: 0 bulls 6 cow
+Введите code
+> 3vxjbr
+Grade: 0 bulls 6 cow
+Введите code
+> xv3jbr
+Grade: 0 bulls 6 cow
+Введите code
+> vx3jbr
+Grade: 1 bulls 5 cow
+Введите code
+> 3xvjbr
+Grade: 1 bulls 5 cow
+Введите code
+> x3vjbr
+Grade: 0 bulls 6 cow
+Введите code
+> x3jvbr
+Grade: 1 bulls 5 cow
+Введите code
+> 3xjvbr
+Grade: 2 bulls 4 cow
+Введите code
+> jx3vbr
+Grade: 1 bulls 5 cow
+Введите code
+> xj3vbr
+Grade: 0 bulls 6 cow
+Введите code
+> 3jxvbr
+Grade: 0 bulls 6 cow
+Введите code
+> j3xvbr
+Grade: 0 bulls 6 cow
+Введите code
+> b3xvjr
+Grade: 0 bulls 6 cow
+Введите code
+> 3bxvjr
+Grade: 0 bulls 6 cow
+Введите code
+> xb3vjr
+Grade: 0 bulls 6 cow
+Введите code
+> bx3vjr
+Grade: 1 bulls 5 cow
+Введите code
+> 3xbvjr
+Grade: 1 bulls 5 cow
+Введите code
+> x3bvjr
+Grade: 0 bulls 6 cow
+Введите code
+> v3bxjr
+Grade: 0 bulls 6 cow
+Введите code
+> 3vbxjr
+Grade: 0 bulls 6 cow
+Введите code
+> bv3xjr
+Grade: 0 bulls 6 cow
+Введите code
+> vb3xjr
+Grade: 0 bulls 6 cow
+Введите code
+> 3bvxjr
+Grade: 0 bulls 6 cow
+Введите code
+> b3vxjr
+Grade: 0 bulls 6 cow
+Введите code
+> bxv3jr
+Grade: 1 bulls 5 cow
+Введите code
+> xbv3jr
+Grade: 0 bulls 6 cow
+Введите code
+> vbx3jr
+Grade: 0 bulls 6 cow
+Введите code
+> bvx3jr
+Grade: 0 bulls 6 cow
+Введите code
+> xvb3jr
+Grade: 0 bulls 6 cow
+Введите code
+> vxb3jr
+Grade: 1 bulls 5 cow
+Введите code
+> vx3bjr
+Grade: 2 bulls 4 cow
+Введите code
+> xv3bjr
+Grade: 1 bulls 5 cow
+Введите code
+> 3vxbjr
+Grade: 1 bulls 5 cow
+Введите code
+> v3xbjr
+Grade: 1 bulls 5 cow
+Введите code
+> x3vbjr
+Grade: 1 bulls 5 cow
+Введите code
+> 3xvbjr
+Grade: 2 bulls 4 cow
+Введите code
+> jxvb3r
+Grade: 2 bulls 4 cow
+Введите code
+> xjvb3r
+Grade: 1 bulls 5 cow
+Введите code
+> vjxb3r
+Grade: 1 bulls 5 cow
+Введите code
+> jvxb3r
+Grade: 1 bulls 5 cow
+Введите code
+> xvjb3r
+Grade: 2 bulls 4 cow
+Введите code
+> vxjb3r
+Grade: 3 bulls 3 cow
+Введите code
+> bxjv3r
+Grade: 2 bulls 4 cow
+Введите code
+> xbjv3r
+Grade: 1 bulls 5 cow
+Введите code
+> jbxv3r
+Grade: 0 bulls 6 cow
+Введите code
+> bjxv3r
+Grade: 0 bulls 6 cow
+Введите code
+> xjbv3r
+Grade: 0 bulls 6 cow
+Введите code
+> jxbv3r
+Grade: 1 bulls 5 cow
+Введите code
+> jvbx3r
+Grade: 0 bulls 6 cow
+Введите code
+> vjbx3r
+Grade: 0 bulls 6 cow
+Введите code
+> bjvx3r
+Grade: 0 bulls 6 cow
+Введите code
+> jbvx3r
+Grade: 0 bulls 6 cow
+Введите code
+> vbjx3r
+Grade: 1 bulls 5 cow
+Введите code
+> bvjx3r
+Grade: 1 bulls 5 cow
+Введите code
+> bvxj3r
+Grade: 0 bulls 6 cow
+Введите code
+> vbxj3r
+Grade: 0 bulls 6 cow
+Введите code
+> xbvj3r
+Grade: 0 bulls 6 cow
+Введите code
+> bxvj3r
+Grade: 1 bulls 5 cow
+Введите code
+> vxbj3r
+Grade: 1 bulls 5 cow
+Введите code
+> xvbj3r
+Grade: 0 bulls 6 cow
+Введите code
+> xvbjr3
+Grade: 1 bulls 5 cow
+Введите code
+> vxbjr3
+Grade: 2 bulls 4 cow
+Введите code
+> bxvjr3
+Grade: 2 bulls 4 cow
+Введите code
+> xbvjr3
+Grade: 1 bulls 5 cow
+Введите code
+> vbxjr3
+Grade: 1 bulls 5 cow
+Введите code
+> bvxjr3
+Grade: 1 bulls 5 cow
+Введите code
+> jvxbr3
+Grade: 2 bulls 4 cow
+Введите code
+> vjxbr3
+Grade: 2 bulls 4 cow
+Введите code
+> xjvbr3
+Grade: 2 bulls 4 cow
+Введите code
+> jxvbr3
+Grade: 3 bulls 3 cow
+Введите code
+> vxjbr3
+Grade: 4 bulls 2 cow
+Введите code
+> xvjbr3
+Grade: 3 bulls 3 cow
+Введите code
+> xbjvr3
+Grade: 2 bulls 4 cow
+Введите code
+> bxjvr3
+Grade: 3 bulls 3 cow
+Введите code
+> jxbvr3
+Grade: 2 bulls 4 cow
+Введите code
+> xjbvr3
+Grade: 1 bulls 5 cow
+Введите code
+> bjxvr3
+Grade: 1 bulls 5 cow
+Введите code
+> jbxvr3
+Grade: 1 bulls 5 cow
+Введите code
+> jbvxr3
+Grade: 1 bulls 5 cow
+Введите code
+> bjvxr3
+Grade: 1 bulls 5 cow
+Введите code
+> vjbxr3
+Grade: 1 bulls 5 cow
+Введите code
+> jvbxr3
+Grade: 1 bulls 5 cow
+Введите code
+> bvjxr3
+Grade: 2 bulls 4 cow
+Введите code
+> vbjxr3
+Grade: 2 bulls 4 cow
+Введите code
+> rbjxv3
+Grade: 4 bulls 2 cow
+Введите code
+> brjxv3
+Grade: 3 bulls 3 cow
+Введите code
+> jrbxv3
+Grade: 2 bulls 4 cow
+Введите code
+> rjbxv3
+Grade: 3 bulls 3 cow
+Введите code
+> bjrxv3
+Grade: 2 bulls 4 cow
+Введите code
+> jbrxv3
+Grade: 2 bulls 4 cow
+Введите code
+> xbrjv3
+Grade: 2 bulls 4 cow
+Введите code
+> bxrjv3
+Grade: 3 bulls 3 cow
+Введите code
+> rxbjv3
+Grade: 4 bulls 2 cow
+Введите code
+> xrbjv3
+Grade: 2 bulls 4 cow
+Введите code
+> brxjv3
+Grade: 2 bulls 4 cow
+Введите code
+> rbxjv3
+Grade: 3 bulls 3 cow
+Введите code
+> rjxbv3
+Grade: 4 bulls 2 cow
+Введите code
+> jrxbv3
+Grade: 3 bulls 3 cow
+Введите code
+> xrjbv3
+Grade: 4 bulls 2 cow
+Введите code
+> rxjbv3
+Grade: 6 bulls
+?[1;31m
+Start test 7?[0m
+Введите длину числа
+> 0
+Введите количество возможных символов в коде
+> 1
+error
+?[1;31m
+Start test 8?[0m
+Введите длину числа
+> 10
+Введите количество возможных символов в коде
+> 9
+Error
+?[1;31m
+Start test 9?[0m
+Введите длину числа
+> 9
+Введите количество возможных символов в коде
+> 37
+error
+?[1;31m
+Start test 10?[0m
+Введите длину числа
+> abcdefg 1 -6
+Error ++
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
